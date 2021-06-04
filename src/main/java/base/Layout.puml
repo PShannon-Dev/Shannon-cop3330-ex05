@@ -1,0 +1,10 @@
+@startuml
+class App{
+    get_and_convert_int();
+    addition();
+    subtraction();
+    multiplication();
+    division();
+}
+@enduml
+
