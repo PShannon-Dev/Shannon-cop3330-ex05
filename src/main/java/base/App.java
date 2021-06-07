@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 5 Solution
+ *  Copyright 2021 Paul Shannon
+ */
 package base;
 
 import java.util.Scanner;
@@ -42,15 +46,14 @@ public class App {
             str = input.next();
         }
 
-        int num = convert_to_int(str);
-        return num;
+        return convert_to_int(str);
     }
 
     //keeps conversion separate from input and output
     public int convert_to_int(String str)
     {
-        int num = Integer.parseInt(str);
-        return num;
+        return Integer.parseInt(str);
+
     }
 
     //doing each math problem and returning int value
